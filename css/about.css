@@ -1,0 +1,55 @@
+body{
+    background-color: brown;
+}
+
+.title{
+    font-size: 50px;
+    color: black;
+    position: relative;
+    display: inline-block;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: 'Cairo', sans-serif;
+    margin-top: 80px;
+}
+
+.title::after{
+    content: '';
+    height: 4px;
+    width: 50%;
+    background: #1A4393;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -3px;
+}
+
+.mentor{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.person{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.img:hover{
+  transform: scale(1.1);
+}
+
+.name{
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Amiri', serif;
+}
