@@ -1,4 +1,4 @@
-/* body{
+body{
     margin: 0;
     padding: 0;
 }
@@ -16,12 +16,12 @@
     padding-bottom: 1%;
 }
 
-ul{
+.ul{
     position: relative;
     display: flex;
 }
 
-li{
+.li{
     position: relative;
     list-style: none;
 }
@@ -346,7 +346,7 @@ li:nth-child(3):hover a::before{
   
   #radio4:checked ~ .navigation-auto .auto-btn4{
     background: #40D3DC;
-  } */
+  }
 
   /*===== GOOGLE FONTS =====*/
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
@@ -611,4 +611,64 @@ a {
     margin-left: auto;
     margin-right: auto;
   }
+}
+
+@media only screen and (max-width: 768px) {
+    .about{
+        background: #fff;
+        margin-top: 1px;
+    }
+    
+    .about-title{
+        font-size: 30px;
+        color: black;
+        position: relative;
+        display: inline-block;
+        left: 50%;
+        transform: translateX(-50%);
+        font-family: 'Cairo', sans-serif;
+    }
+    
+    .about-title::after{
+        content: '';
+        height: 4px;
+        width: 50%;
+        background: #ffe107;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: -3px;
+    }
+    
+    .about-position{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 100px;
+    }
+    
+    .about-l{
+        width: 50%;
+        text-align: center;
+        position: relative;
+    }
+    
+    .about-logo{
+        width: 150px;
+        margin-left: 20%;
+    }
+
+    .about-r{
+        margin-left: -90px;
+        width: 110%;
+        float: right;
+    }
+
+    .about-text{
+        font-size: 18px;
+        margin-top: 20px;
+        line-height: 1.5;
+        font-weight: bold;
+        width: 100%;
+        margin-left: 25px;
+    }
 }
