@@ -843,7 +843,6 @@ a {
     }
 
     .sli{
-        padding-top: 20%;
         margin: 0;
         padding: 0;
         display: flex;
@@ -854,6 +853,7 @@ a {
     }
     
     .slider{
+        margin-top: 10%;
         width: 300px;
         border-radius: 10px;
         overflow: hidden;
