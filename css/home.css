@@ -830,7 +830,7 @@ a {
         margin-left: -90px;
         width: 110%;
         float: right;
-        margin-bottom: -30%;
+        margin-bottom: -40%;
     }
 
     .about-text{
@@ -843,6 +843,7 @@ a {
     }
 
     .sli{
+        margin-top: 10%;
         margin: 0;
         padding: 0;
         display: flex;
