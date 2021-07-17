@@ -830,6 +830,7 @@ a {
         margin-left: -90px;
         width: 110%;
         float: right;
+        margin-bottom: 10%;
     }
 
     .about-text{
@@ -848,8 +849,7 @@ a {
         justify-content: center;
         align-items: center;
         background: #fff;
-        padding-bottom: 10%;
-        margin-top: -15%;
+        padding-bottom: 20%;
     }
     
     .slider{
