@@ -13,54 +13,89 @@
     </head>
 
     <body>
-        <div class="app-bar">
-            <div class="lt">
-                <p>Lybotics Baxter Team - 18499</p>
-            </div>
-
-            <div class="rt">
-                <button class="btn en" onclick="window.location.href='#eng'; location.reload()">English</button>
-                <button class="btn ar" onclick="window.location.href='#ar'; location.reload()">العربية</button>
-            </div>
-        </div>
-
         <div class="top">
-            <div class="head">
                 <div class="left">
                     <img class="name-logo" src="https://i.postimg.cc/ZnbnRRcC/baxter.png">
                 </div>
 
                 <div class="right">
-                    <img class="logo" src="https://i.postimg.cc/VLnqTddC/name.png">
+                    <a>Home</a>
+                    <a>Home</a>
+                    <a>Home</a>
+                    <a>Home</a>
                 </div>
             </div>
         </div>
 
-    <div class="social">
-        <ul>
-            <li><a class="fab1" href="https://www.facebook.com/pages/category/Community/Lybotics-Baxter-Team-104898178038197/"><i class="fab fa-facebook-f"></i></a></li>
-            <li><a class="fab2" href="https://www.instagram.com/lybotics_.baxter._team/"><i class="fab fa-instagram"></i></a></li>
-            <li><a class="fab3" href="https://twitter.com/baxter_team?lang=en"><i class="fab fa-twitter"></i></a></li>
-        </ul>
-    </div>
+        <div class="center">
+            <img src="https://i.postimg.cc/G9wx6wj7/photo-2021-07-17-14-59-40.jpg" width="100%">
+        </div>
 
-    <div class="about">
-        <p class="about-title" dir="rtl" id="about_title">FTC</p>
+        <div class="social">
+            <ul>
+                <li><a class="fab1" href="https://www.facebook.com/pages/category/Community/Lybotics-Baxter-Team-104898178038197/"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a class="fab2" href="https://www.instagram.com/lybotics_.baxter._team/"><i class="fab fa-instagram"></i></a></li>
+                <li><a class="fab3" href="https://twitter.com/baxter_team?lang=en"><i class="fab fa-twitter"></i></a></li>
+            </ul>
+        </div>
 
-        <div class="about-position">
-            <div class="about-l">
-                <img class="about-logo" src="https://i.postimg.cc/sfMc7D2s/IMG-20210708-211700-268.jpg">
-            </div>
+        <div class="about">
+            <p class="about-title" dir="rtl" id="about_title">FTC</p>
 
-            <div class="about-r">
-                <p class="about-text" dir="rtl" id="about">فريق باكستر, هو فريق ليبي مجتمعي وهو أحد فرق منظمة لايبوتيكس.
-                    والمسجل في منظمة "فيرست" العالمية تحت رقم 18499
-                    تأسس في اليوم السابع والعشرون من سبتمبر عام 2020.
-                    يتكون الفريق من مجموعة من الشباب أعمارهم بين 12 - 18 يغلب عليهم الحماس والشغف, محبين للعلم والعمل.
-                </p>
+            <div class="about-position">
+                <div class="about-l">
+                    <img class="about-logo" src="https://i.postimg.cc/sfMc7D2s/IMG-20210708-211700-268.jpg">
+                </div>
+
+                <div class="about-r">
+                    <p class="about-text" dir="rtl" id="about">فريق باكستر, هو فريق ليبي مجتمعي وهو أحد فرق منظمة لايبوتيكس.
+                        والمسجل في منظمة "فيرست" العالمية تحت رقم 18499
+                        تأسس في اليوم السابع والعشرون من سبتمبر عام 2020.
+                        يتكون الفريق من مجموعة من الشباب أعمارهم بين 12 - 18 يغلب عليهم الحماس والشغف, محبين للعلم والعمل.
+                    </p>
+                </div>
             </div>
         </div>
-    </div>
+
+        <div class="sli">
+            <div class="slider">
+                <div class="slides">
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <div class="slide first">
+                    <img src="https://i.postimg.cc/NMxRzdD1/3.png" alt="">
+                </div>
+                <div class="slide">
+                    <img src="https://i.postimg.cc/90Fy5ygs/2.png" alt="">
+                </div>
+                <div class="slide">
+                    <img src="https://i.postimg.cc/zBm1cjvX/1.png" alt="">
+                </div>
+                <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                </div>
+                </div>
+                <div class="navigation-manual">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+                </div>
+            </div>
+        </div>
+      
+          <script type="text/javascript">
+          var counter = 1;
+          setInterval(function(){
+            document.getElementById('radio' + counter).checked = true;
+            counter++;
+            if(counter > 3){
+              counter = 1;
+            }
+          }, 5000);
+          </script>
 
     </body>
 </html>
