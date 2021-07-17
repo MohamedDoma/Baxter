@@ -615,12 +615,12 @@ a {
 
 @media only screen and (max-width: 768px) {
     .social{
-        margin-top: 1%;
+        margin-top: 3%;
         display: flex;
         justify-content: center;
         align-items: center;
         background: #fff;
-        padding-bottom: 1%;
+        padding-bottom: 3%;
     }
     
     .ul{
@@ -787,7 +787,6 @@ a {
 
     .about{
         background: #dff0fa;
-        margin-top: 1px;
     }
     
     .about-title{
@@ -804,7 +803,7 @@ a {
         content: '';
         height: 4px;
         width: 50%;
-        background: #ffe107;
+        background: #1877f2;
         position: absolute;
         left: 50%;
         transform: translateX(-50%);
@@ -825,7 +824,7 @@ a {
     
     .about-logo{
         width: 150px;
-        margin-left: 20%;
+        margin-left: 10%;
     }
 
     .about-r{
