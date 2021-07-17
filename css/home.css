@@ -615,12 +615,12 @@ a {
 
 @media only screen and (max-width: 768px) {
     .social{
-        margin-top: 3%;
+        margin-top: 4%;
         display: flex;
         justify-content: center;
         align-items: center;
         background: #fff;
-        padding-bottom: 3%;
+        padding-bottom: 4%;
     }
     
     .ul{
@@ -824,7 +824,6 @@ a {
     
     .about-logo{
         width: 150px;
-        margin-left: 10%;
     }
 
     .about-r{
@@ -849,8 +848,8 @@ a {
         justify-content: center;
         align-items: center;
         background: #fff;
-        padding-bottom: 5%;
-        margin-top: -10%;
+        padding-bottom: 10%;
+        margin-top: -15%;
     }
     
     .slider{
