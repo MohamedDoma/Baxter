@@ -861,14 +861,14 @@ a {
     }
 
     .spon-text{
-      margin-top: 3%;
+      margin-top: 4%;
       font-size: 40px;
       color: #2765B2;
       text-shadow: 0px 0px 10px rgb(0 0 0 / 30%);
     }
     
     .slider{
-        margin-top: 6%;
+        margin-top: 4%;
         width: 300px;
         border-radius: 10px;
         overflow: hidden;
