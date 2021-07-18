@@ -857,6 +857,7 @@ a {
         align-items: center;
         background: #fff;
         padding-bottom: 20%;
+        flex-direction: column;
     }
 
     .spon-text{
