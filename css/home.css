@@ -475,7 +475,7 @@ a {
   top: 0;
   left: 0;
   width: 100%;
-  height: var(--header-height);
+  height: var(3rem);
   padding: 0 1rem;
   background-color: #FFF;
   z-index: var(--z-fixed);
@@ -613,7 +613,7 @@ a {
     margin: 0;
   }
   .header {
-    height: calc(var(--header-height) + 1rem);
+    height: calc(var(3rem) + 1rem);
   }
   .header__logo, .header__toggle {
     display: none;
