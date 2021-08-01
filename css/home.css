@@ -3,10 +3,6 @@ body{
     padding: 0;
 }
 
-.center{
-    margin-top: 4.3%;
-}
-
 .social{
     margin-top: 1%;
     display: flex;
@@ -419,7 +415,7 @@ li:nth-child(3):hover a::before{
 
 /*===== VARIABLES CSS =====*/
 :root {
-  --header-height: 3rem;
+  --header-height: 6rem;
 
   /*===== Colors =====*/
   --first-color: #5B65F5;
@@ -438,7 +434,7 @@ li:nth-child(3):hover a::before{
 
 @media screen and (min-width: 768px) {
   :root {
-    --nav-name-font-size: 1rem;
+    --nav-name-font-size: 1.2rem;
     --normal-font-size: 1rem;
   }
 }
@@ -475,7 +471,7 @@ a {
 
 /*===== HEADER =====*/
 .header {
-  position: fixed;
+  /* position: fixed; */
   top: 0;
   left: 0;
   width: 100%;
@@ -525,19 +521,19 @@ a {
   align-items: center;
   text-align: center;
   margin-bottom: 3rem;
+  height: 7rem;
 }
 
 .nav__img {
   display: flex;
   justify-content: center;
-  width: 60px;
-  height: 60px;
-  overflow: hidden;
+  width: 12%;
   margin-bottom: 1rem;
+  margin-right: 3% !important;
 }
 
-.nav__img img {
-  width: 70px;
+.img1 {
+  width: 100% !important;
 }
 
 .nav__name {
@@ -573,6 +569,14 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  color: #fff !important;
+  border-color: #4064d7;
+  background-color: #4064d7;
+  border-radius: 50px;
+  padding-top: 10px;
+  padding-right: 40px;
+  padding-bottom: 10px;
+  padding-left: 40px;
 }
 
 .dropdown__icon {
@@ -641,6 +645,7 @@ a {
   .nav__list {
     display: flex;
     align-items: center;
+    margin-right: -1%;
   }
   .nav__item {
     margin: 0 1.5rem;
@@ -662,10 +667,12 @@ a {
   .dropdown__menu {
     position: fixed;
     margin: 0;
-    top: calc(var(--header-height) + 1rem);
+    top: 5.5rem;
     padding: .5rem 1.5rem;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     border-radius: .5rem;
+    background-color: #f1f1f1;
+    margin-left: 3%;
   }
   .dropdown__item {
     margin: .5rem 0;
