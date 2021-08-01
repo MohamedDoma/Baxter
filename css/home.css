@@ -475,7 +475,7 @@ a {
   top: 0;
   left: 0;
   width: 100%;
-  height: 3rem;
+  height: 1rem;
   padding: 0 1rem;
   background-color: #FFF;
   z-index: var(--z-fixed);
@@ -497,10 +497,10 @@ a {
 /*===== NAV =====*/
 @media screen and (max-width: 768px) {
   .nav {
+    background-color: rgba(0, 0, 0, 0.6);
     position: fixed;
     top: 0;
     left: -100%;
-    filter: blur(8px);
     width: 80%;
     height: 100vh;
     padding: 2rem 0;

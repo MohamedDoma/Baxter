@@ -7,6 +7,7 @@ const showMenu = (toggleId, navId)=>{
       toggle.addEventListener('click', ()=>{
         nav.classList.toggle('show')
         toggle.classList.toggle('bx-x')
+        document.getElementById("center").style.filter = "blur(8px)";
       })
     }
   }
