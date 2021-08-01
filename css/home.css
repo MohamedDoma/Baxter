@@ -475,6 +475,7 @@ a {
   top: 0;
   left: 0;
   width: 100%;
+  margin-top: -1.5%;
   padding: 0 1rem;
   background-color: #FFF;
   z-index: var(--z-fixed);
