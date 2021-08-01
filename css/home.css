@@ -445,7 +445,7 @@ li:nth-child(3):hover a::before{
 }
 
 body {
-  margin: var(3rem) 0 0 0;
+  margin: var(4rem) 0 0 0;
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
   font-weight: 600;
@@ -475,7 +475,7 @@ a {
   top: 0;
   left: 0;
   width: 100%;
-  height: var(3rem);
+  height: var(4rem);
   padding: 0 1rem;
   background-color: #FFF;
   z-index: var(--z-fixed);
@@ -520,7 +520,7 @@ a {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  margin-bottom: 3rem;
+  margin-bottom: 4rem;
   height: 7rem;
 }
 
@@ -613,7 +613,7 @@ a {
     margin: 0;
   }
   .header {
-    height: calc(var(3rem) + 1rem);
+    height: calc(var(4rem) + 1rem);
   }
   .header__logo, .header__toggle {
     display: none;
