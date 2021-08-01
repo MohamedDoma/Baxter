@@ -475,7 +475,7 @@ a {
   top: 0;
   left: 0;
   width: 100%;
-  height: var(--header-height);
+  height: var(4rem);
   padding: 0 1rem;
   background-color: #FFF;
   z-index: var(--z-fixed);
