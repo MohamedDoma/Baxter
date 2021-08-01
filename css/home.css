@@ -445,7 +445,7 @@ li:nth-child(3):hover a::before{
 }
 
 body {
-  margin: var(3rem) 0 0 0;
+  margin: 3rem 0 0 0;
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
   font-weight: 600;
@@ -475,7 +475,7 @@ a {
   top: 0;
   left: 0;
   width: 100%;
-  height: var(4rem);
+  height: 4rem;
   padding: 0 1rem;
   background-color: #FFF;
   z-index: var(--z-fixed);
