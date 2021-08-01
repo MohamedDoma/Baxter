@@ -475,7 +475,6 @@ a {
   top: 0;
   left: 0;
   width: 100%;
-  margin-top: -2%;
   padding: 0 1rem;
   background-color: #FFF;
   z-index: var(--z-fixed);
@@ -507,6 +506,20 @@ a {
     z-index: var(--z-fixed);
     transition: .5s;
     overflow-y: auto;
+  }
+
+  .header {
+    /* position: fixed; */
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin-top: -3%;
+    background-color: #fdfcff;
+    z-index: var(--z-fixed);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 }
 
