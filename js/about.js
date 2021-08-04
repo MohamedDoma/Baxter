@@ -83,7 +83,7 @@ if (window.location.hash){
                 document.getElementById("design_about").style.width = '100%';
                 document.getElementById("design_about").style.marginTop = '-6%';
 
-                document.getElementById("building_title").style.marginTop = '-10%';
+                document.getElementById("building_title").style.marginTop = '-20%';
                 document.getElementById("building_about").style.width = '100%';
                 document.getElementById("building_about").style.marginTop = '-6%';
 
