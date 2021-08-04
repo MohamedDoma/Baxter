@@ -175,7 +175,7 @@ li:nth-child(3):hover a::before{
 }
 
 .about{
-    background: #fdfcff;
+    background: #f1f1f1;
 }
 
 .about-title{
@@ -352,7 +352,7 @@ li:nth-child(3):hover a::before{
   }
 
   .cont{
-    background: #fdfcff;
+    background: #f1f1f1;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -875,7 +875,7 @@ a {
     }
 
     .about{
-        background: #fdfcff;
+        background: #f1f1f1;
     }
     
     .about-title{
