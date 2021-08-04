@@ -72,7 +72,7 @@ if (window.location.hash){
         function myFunction(x){
             if (x.matches) 
             {
-                document.getElementById("design_title").style.marginTop = '-27%';
+                document.getElementById("design_title").style.marginTop = '-22%';
                 document.getElementById("design_about").style.width = '100%';
                 document.getElementById("building_title").style.marginTop = '-29%';
                 document.getElementById("building_about").style.width = '100%';
