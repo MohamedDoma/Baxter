@@ -675,7 +675,7 @@ body{
     }
     
     .first_num{
-        color: rgba(0, 0, 0, 0.08);
+        color: rgba(0, 0, 0, 0.1);
         font-size: 11vw;
         font-weight: 100;
     }
@@ -704,7 +704,7 @@ body{
     
     .second_num{
         margin-top: -8%;
-        color: rgba(0, 0, 0, 0.09);
+        color: rgba(0, 0, 0, 0.1);
         font-size: 11vw;
         font-weight: 100;
     }
