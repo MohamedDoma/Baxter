@@ -88,7 +88,7 @@ if (window.location.hash){
                 document.getElementById("building_about").style.marginTop = '-6%';
 
                 document.getElementById("program_title").style.marginTop = '-22%';
-                ocument.getElementById("program_about").style.width = '100%';
+                document.getElementById("program_about").style.width = '100%';
                 document.getElementById("program_about").style.marginTop = '-6%';
             }
             else
