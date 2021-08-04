@@ -660,7 +660,7 @@ body{
     }
     
     .proc{
-        margin-top: -5%;
+        margin-top: -10%;
         display: flex;
         flex-direction: column;
         justify-content: center;
