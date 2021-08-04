@@ -704,21 +704,23 @@ body{
     
     .second_num{
         color: rgba(0, 0, 0, 0.09);
-        font-size: 8vw;
+        font-size: 11vw;
         font-weight: 100;
     }
     
     .second_title{
+        margin-top: -22%;
         color: #000;
-        font-size: 4vw;
+        font-size: 6vw;
         font-weight: bolder;
     }
     
     .second_about{
+        margin-top: -5%;
         width: 70%;
         text-align: center;
         color: #7a7a87;
-        font-size: 2vw;
+        font-size: 3.5vw;
         font-weight: 100;
     }
     
