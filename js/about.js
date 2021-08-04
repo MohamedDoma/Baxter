@@ -50,18 +50,25 @@ if (window.location.hash){
     if (window.location.hash === "#eng"){
         document.getElementById("who").style.float = 'left';
         document.getElementById("who").style.direction = 'ltr';
+
         document.getElementById("what").style.float = 'left';
         document.getElementById("what").style.direction = 'ltr';
+
         document.getElementById("design_title").style.float = 'left';
         document.getElementById("design_title").style.direction = 'ltr';
+
         document.getElementById("design_about").style.float = 'left';
         document.getElementById("design_about").style.direction = 'ltr';
+
         document.getElementById("building_title").style.float = 'left';
         document.getElementById("building_title").style.direction = 'ltr';
+
         document.getElementById("building_about").style.float = 'left';
         document.getElementById("building_about").style.direction = 'ltr';
+
         document.getElementById("program_title").style.float = 'left';
         document.getElementById("program_title").style.direction = 'ltr';
+
         document.getElementById("program_about").style.float = 'left';
         document.getElementById("program_about").style.direction = 'ltr';
 
@@ -75,17 +82,23 @@ if (window.location.hash){
                 document.getElementById("design_title").style.marginTop = '-22%';
                 document.getElementById("design_about").style.width = '100%';
                 document.getElementById("design_about").style.marginTop = '-6%';
-                document.getElementById("building_title").style.marginTop = '-29%';
+
+                document.getElementById("building_title").style.marginTop = '-10%';
                 document.getElementById("building_about").style.width = '100%';
+                document.getElementById("building_about").style.marginTop = '-6%';
+
                 document.getElementById("program_title").style.marginTop = '-28%';
                 ocument.getElementById("program_about").style.width = '100%';
+                document.getElementById("program_about").style.marginTop = '-6%';
             }
             else
             {
                 document.getElementById("design_title").style.marginTop = '-42%';
                 document.getElementById("design_about").style.width = '70%';
+
                 document.getElementById("building_title").style.marginTop = '-29%';
                 document.getElementById("building_about").style.width = '63%';
+
                 document.getElementById("program_title").style.marginTop = '-28%';
                 ocument.getElementById("program_about").style.width = '63%';
             }
