@@ -74,6 +74,7 @@ if (window.location.hash){
             {
                 document.getElementById("design_title").style.marginTop = '-22%';
                 document.getElementById("design_about").style.width = '100%';
+                document.getElementById("design_about").style.marginTop = '-6%';
                 document.getElementById("building_title").style.marginTop = '-29%';
                 document.getElementById("building_about").style.width = '100%';
                 document.getElementById("program_title").style.marginTop = '-28%';
