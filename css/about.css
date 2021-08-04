@@ -103,11 +103,10 @@ body{
    }
  
    .header {
-     /* position: fixed; */
+     position: fixed;
      top: 0;
      left: 0;
      width: 100%;
-     margin-top: -3%;
      background-color: #fdfcff;
      z-index: var(--z-fixed);
      display: flex;
@@ -560,7 +559,7 @@ body{
         left: 50%;
         transform: translateX(-50%);
         font-family: 'Cairo', sans-serif;
-        margin-top: 10px;
+        margin-top: calc(10px + 3%);
     }
     
     .title::after{
