@@ -646,6 +646,10 @@ body{
     .who, .what{
         width: 30%;
     }
+
+    .what{
+        margin-top: -5%;
+    }
     
     .second{
         background: #fff;
