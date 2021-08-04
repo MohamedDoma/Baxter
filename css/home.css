@@ -193,7 +193,7 @@ li:nth-child(3):hover a::before{
     content: '';
     height: 4px;
     width: 50%;
-    background: #1877f2;
+    background: #1A4393;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
@@ -889,7 +889,7 @@ a {
         content: '';
         height: 4px;
         width: 50%;
-        background: #1877f2;
+        background: #1A4393;
         position: absolute;
         left: 50%;
         transform: translateX(-50%);

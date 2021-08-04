@@ -373,7 +373,7 @@ body{
     content: '';
     height: 4px;
     width: 50%;
-    background: #1A4393;
+    background: #1877f2;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
@@ -549,3 +549,211 @@ body{
     transition: 0.3s linear;
     font-family: Arial, Helvetica, sans-serif;
   }
+
+@media only screen and (max-width: 768px) {
+    
+    .title{
+        font-size: 30px;
+        color: black;
+        position: relative;
+        display: inline-block;
+        left: 50%;
+        transform: translateX(-50%);
+        font-family: 'Cairo', sans-serif;
+        margin-top: 10px;
+    }
+    
+    .title::after{
+        content: '';
+        height: 4px;
+        width: 50%;
+        background: #1A4393;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: -3px;
+    }
+    
+    .mentor{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    .person{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .img{
+        height: 70px;
+        width: 70px;
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-top: 5px;
+    }
+    
+    .img:hover{
+      transform: scale(1.1);
+    }
+    
+    .name{
+        font-weight: bold;
+        font-size: 20px;
+        text-align: center;
+        margin-top: 10px;
+        font-family: 'Amiri', serif;
+    }
+    
+    .ss{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+    .title1{
+        font-size: 20px;
+        color: #4c4c4c;
+        position: relative;
+        display: inline-block;
+        left: 50%;
+        transform: translateX(-50%);
+        font-family: 'Cairo', sans-serif;
+        margin-top: 10px;
+    }
+    
+    .title1::after{
+        content: '';
+        height: 4px;
+        width: 50%;
+        background: #1877f2;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: -3px;
+    }
+    
+    .abo{
+        font-weight: 100;
+        margin-top: -1%;
+        font-size: 13px;
+        color: #7a7a87;
+        text-align: center;
+    }
+    
+    .who, .what{
+        width: 30%;
+    }
+    
+    .second{
+        background: #fff;
+    }
+    
+    .third{
+        background: #f1f1f1;
+    }
+    
+    .proc{
+        margin-top: -12%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding-left: 10%;
+    }
+    
+    .first_proc{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .first_num{
+        color: rgba(0, 0, 0, 0.08);
+        font-size: 8vw;
+        font-weight: 100;
+    }
+    
+    .first_title{
+        margin-top: -59%;
+        color: #000;
+        font-size: 4vw;
+        font-weight: bolder;
+    }
+    
+    .first_about{
+        width: 100%;
+        text-align: center;
+        margin-top: -10%;
+        color: #7a7a87;
+        font-size: 2vw;
+        font-weight: 100;
+    }
+    
+    .second_proc{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .second_num{
+        color: rgba(0, 0, 0, 0.09);
+        font-size: 8vw;
+        font-weight: 100;
+    }
+    
+    .second_title{
+        margin-top: -40%;
+        color: #000;
+        font-size: 4vw;
+        font-weight: bolder;
+    }
+    
+    .second_about{
+        width: 70%;
+        text-align: center;
+        margin-top: -8%;
+        color: #7a7a87;
+        font-size: 2vw;
+        font-weight: 100;
+    }
+    
+    .third_proc{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .third_num{
+        color: rgba(0, 0, 0, 0.09);
+        font-size: 8vw;
+        font-weight: 100;
+    }
+    
+    .third_title{
+        margin-top: -31%;
+        color: #000;
+        font-size: 4vw;
+        font-weight: bolder;
+    }
+    
+    .third_about{
+        width: 80%;
+        text-align: center;
+        margin-top: -5%;
+        color: #7a7a87;
+        font-size: 2vw;
+        font-weight: 100;
+    }
+
+    .contact-info{
+        flex-direction: column;
+      }
+
+      .card{
+        width: 100%;
+        max-width: 300px;
+        margin: 10px 0;
+      }
+}
