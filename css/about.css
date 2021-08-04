@@ -553,7 +553,7 @@ body{
 @media only screen and (max-width: 768px) {
     
     .title{
-        font-size: 30px;
+        font-size: 25px;
         color: black;
         position: relative;
         display: inline-block;
@@ -614,7 +614,7 @@ body{
     }
     
     .title1{
-        font-size: 20px;
+        font-size: 15px;
         color: #4c4c4c;
         position: relative;
         display: inline-block;
