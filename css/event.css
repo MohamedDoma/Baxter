@@ -252,7 +252,7 @@ a {
   .nav__list {
     display: flex;
     align-items: center;
-    margin-right: -1%;
+    margin-right: -5%;
   }
   .nav__item {
     margin: 0 1.5rem;
