@@ -725,8 +725,8 @@ a{
   }
   
   .event-title{
+    margin-top: 2%;
     font-size: 25px;
-    margin: 0;
     color: #000;
   }
   
