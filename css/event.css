@@ -569,7 +569,7 @@ a{
     flex-direction: column;
   }
 
-  .card{
+  .card-cont{
     width: 100%;
     max-width: 300px;
     margin: 10px 0;
