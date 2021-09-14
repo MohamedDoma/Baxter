@@ -703,10 +703,6 @@ a{
     flex-direction: column;
   }
   
-  .profile-image img:hover{
-    transform: scale(1.1);
-  }
-  
   .card-content{
     display: flex;
     flex-direction: column;
@@ -726,8 +722,9 @@ a{
   }
   
   .event-title{
-    font-size: 50px;
+    font-size: 20px;
     margin: 0;
+    color: #000;
   }
   
   .icons{
