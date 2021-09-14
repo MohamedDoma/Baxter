@@ -563,6 +563,7 @@ a{
     font-size: 40px;
     color: #2765B2;
     text-shadow: 0px 0px 10px rgb(0 0 0 / 30%);
+    margin-bottom: -2%;
   }
 
   .all-card{
@@ -574,7 +575,7 @@ a{
   }
   
   .card-event{
-      margin-top: 5%;
+      margin-top: 7%;
       width: 70%;
       box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.7);
       text-align: center;
