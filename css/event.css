@@ -563,7 +563,201 @@ a{
     font-size: 40px;
     color: #2765B2;
     text-shadow: 0px 0px 10px rgb(0 0 0 / 30%);
-}
+  }
+
+  .all-card{
+    margin-top: -7%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+     align-items: center;
+  }
+  
+  .card-event{
+      margin-top: 2%;
+      width: 60%;
+      box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.7);
+      text-align: center;
+      padding: 10px;
+  }
+  
+  .card-img{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+  
+  .first-card-img{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .second-card-img{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .img-card{
+    width: 100%;
+    padding: 1px;
+  }
+  
+  .card-text{
+    text-align: left;
+  }
+  
+  .container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  .blk{
+    background: url(https://i.postimg.cc/C1kJCPTf/1.jpg);
+    filter: blur(8px);
+    background-repeat: no-repeat;
+    width: 100%;
+  }
+  
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 20px;
+  }
+  
+  .popup .overlay{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+    display: none;
+  }
+  
+  .popup .card{
+    position: absolute; /* absolute */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    background: #fff;
+    width: 800px;
+    z-index: 2;
+    text-align: center;
+    box-sizing: border-box;
+  }
+  
+  .event{
+    height: 500px;
+  }
+  .event_m{
+    margin-top: 12.6%;
+  }
+  
+  .popup .close-btn{
+    cursor: pointer;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    width: 30px;
+    height: 30px;
+    background: #222;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    z-index: 10;
+  }
+  
+  .popup.active .overlay{
+    display: block;
+  }
+  
+  .popup.active .card{
+    transition: all 300ms ease-in-out;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  
+  .card{
+    font-family: "candara", sans-serif;
+    width: 340px;
+    overflow: hidden;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .profile-image img:hover{
+    transform: scale(1.1);
+  }
+  
+  .card-content{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .first-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .second-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .event-title{
+    font-size: 50px;
+    margin: 0;
+  }
+  
+  .icons{
+    text-align: center;
+    padding-bottom: 30px;
+    margin-top: 10px;
+  }
+  
+  .icons a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #0ABDE3;
+    padding: 0 14px;
+    transition-duration: 0.4s;
+    transition-property: transform;
+  }
+  
+  .icons a:hover{
+    color: #ffe107;
+    transform: scale(1.5);
+  }
+  
+  a{
+    text-decoration: none;
+    color: white;
+  }
+  
+  .img-card-hover{
+    width: 32.5%;
+    margin: 2px;
+  }
 
   .contact-info{
     flex-direction: column;
